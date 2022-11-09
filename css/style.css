@@ -20,11 +20,10 @@ ul {
     list-style: none;
 }
 
-.background {
-    background-size: cover;
-}
-#home_bg {
+#home_background {
     background-image: url(../images/main-bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .logo {
@@ -32,7 +31,7 @@ ul {
 }
 .main_nav {
     display: flex;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     margin-top: 14px;
 }
 .main_nav li {
@@ -47,4 +46,24 @@ header {
 
 .home_main {
     text-align: center;
+    margin-top: 10%;
+}
+.home_main h2 {
+    font-family: "Philosopher", serif;
+    font-weight: lighter;
+    font-size: 5rem;
+}
+.home_main p {
+    font-size: 1.025rem;
+    margin: 10px 0 42px;
+}
+.home_main a {
+    font-size: 1.05rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px 36px;
+}
+.home_main a:hover {
+    background-color: #0090aa;
 }
