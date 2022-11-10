@@ -21,27 +21,42 @@ ul {
 }
 
 #home_background {
-    background-image: url(../images/main-bg.jpg);
+    background-image: url(../images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: luminosity;
     background-size: cover;
     min-height: 100vh;
+}
+.header_background {
+    background-image: url(../images/news-bg.jpg);
+    background-size: cover;
+    height: 260px;
 }
 
 .logo {
     width: 210px;
 }
-.main_nav {
+.header_nav {
     display: flex;
     font-size: 1.15rem;
     margin-top: 14px;
 }
-.main_nav li {
+.header_nav li {
     margin-left: 36px;
 }
-header {
+.page_header {
     display: flex;
     justify-content: space-between;
     margin: 14px auto 0;
     padding: 0 4%;
+}
+h1 {
+    text-align: center;
+    font-family: "Philosopher", serif;
+    font-weight: lighter;
+    font-size: 5rem;
+}
+#home_logo {
+    font-size: 1rem;
 }
 
 .home_main {
