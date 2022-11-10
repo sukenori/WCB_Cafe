@@ -5,6 +5,7 @@ body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
+    margin: 0px;
 }
 a {
     text-decoration: none;
@@ -34,19 +35,20 @@ ul {
 
 .logo {
     width: 210px;
+    margin-top: 14px;
 }
 .header_nav {
     display: flex;
     font-size: 1.15rem;
-    margin-top: 14px;
+    margin-top: 32px;
 }
 .header_nav li {
-    margin-left: 36px;
+    margin-left: 30px;
 }
 .page_header {
     display: flex;
     justify-content: space-between;
-    margin: 14px auto 0;
+    margin: 0 auto;
     padding: 0 4%;
 }
 h1 {
