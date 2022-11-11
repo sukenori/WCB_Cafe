@@ -60,6 +60,12 @@ h1 {
 #home_logo {
     font-size: 1rem;
 }
+footer {
+    background-color: #432;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
 
 .home_main {
     text-align: center;
