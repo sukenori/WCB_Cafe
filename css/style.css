@@ -90,3 +90,38 @@ footer {
 .home_main a:hover {
     background-color: #0090aa;
 }
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 4% 46px;
+}
+article {
+    width: 74%;
+}
+aside {
+    width: 22%;
+}
+.news_title {
+    display: flex;
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 1rem;
+}
+.news_date {
+    background: #0bd;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 1.625rem;
+    text-align: center;
+}
+.news_date span {
+    display: block;
+    border-top: 1px rgba(255,255,255,.5) solid;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 6px;
+    font-size: 1rem;
+}
